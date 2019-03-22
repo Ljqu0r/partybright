@@ -1,7 +1,7 @@
 /*rating-stars
 sprite with stars*/
 .review-stars .review-stars__input:checked ~ label, .review-stars label, .review-stars label:hover, .review-stars label:hover ~ label {
-  background: url(../../images/star.png) no-repeat;
+  background: url(../images/star.png) no-repeat;
   -webkit-background-size: 100%;
   background-size: 100%;
 }
