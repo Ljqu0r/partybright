@@ -10,6 +10,7 @@ sprite with stars*/
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 20px;
 }
 
 
@@ -50,7 +51,7 @@ sprite with stars*/
   height: 28px;
   width: 30px;
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0 5px;
   position: relative;
   z-index: 1;
 }

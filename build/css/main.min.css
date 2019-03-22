@@ -470,7 +470,8 @@ sprite with stars*/
 .rating-stars {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  margin-top: 20px; }
 
 .rating-title {
   text-align: center;
@@ -505,7 +506,7 @@ sprite with stars*/
   height: 28px;
   width: 30px;
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0 5px;
   position: relative;
   z-index: 1; }
 
@@ -515,5 +516,64 @@ sprite with stars*/
   width: 30px; }
 
 /*end of rating stars - menu*/
+@media (max-width: 640px) {
+  .reviews-top {
+    margin: 20px 0 35px; }
+    .reviews-top .text-title {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center; } }
+
+@media (max-width: 640px) {
+  .review-form-fields {
+    margin: 0; } }
+
+@media (max-width: 640px) {
+  .review-container {
+    margin: 0; } }
+
+@media (max-width: 640px) {
+  .add-review {
+    display: none; } }
+
+@media (max-width: 640px) {
+  .top-part {
+    flex-direction: column;
+    align-items: flex-start; }
+    .top-part .date {
+      margin: 10px 0; } }
+
+@media (max-width: 640px) {
+  .image-block {
+    padding-right: 15px; } }
+
+@media (max-width: 640px) {
+  .review-item {
+    border: 1px solid #cdcdcd50;
+    padding: 5px 0;
+    background-color: #77777710; } }
+
+@media (max-width: 640px) {
+  .rating-stars {
+    flex-direction: column; }
+    .rating-stars .name {
+      width: 100%;
+      min-width: 100%; }
+      .rating-stars .name span {
+        text-align: center;
+        margin-bottom: 5px; }
+    .rating-stars .review-stars {
+      margin: 10px auto; } }
+
+@media (max-width: 640px) {
+  .comment {
+    margin: 20px 0; }
+    .comment span {
+      text-align: center;
+      margin-bottom: 5px; } }
+
+@media (max-width: 640px) {
+  .form-btn {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.min.css.map */
