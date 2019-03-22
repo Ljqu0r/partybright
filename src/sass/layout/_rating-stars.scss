@@ -7,16 +7,20 @@ sprite with stars*/
 }
 
 .rating-stars{
-  margin: 15px 0;
+  margin: 40px 0 20px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  background-color: #505050;
+  flex-wrap: wrap;
 }
 
 .rating-title{
   text-align: center;
-  color: #333;
+  color: #fff;
   font-size: 24px;
+  margin-right: 50px;
 }
 
 .review-stars {

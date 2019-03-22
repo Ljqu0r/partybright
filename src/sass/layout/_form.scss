@@ -1,10 +1,7 @@
 .product-row {
-  width: 50%;
 }
 
 .reviews-block {
-  padding: 50px 10px;
-
 }
 
 .reviews-top {
@@ -12,14 +9,17 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 0 25px;
+  margin: 30px 10px 25px 10px;
+}
 
+.review-container{
+  margin: 0 10px;
 }
 
 .text-title {
   font-size: 24px;
   font-weight: 300;
-  color: #333;
+  color: #505050;
   min-width: 200px;
 }
 
@@ -70,20 +70,20 @@
 .top-part {
   margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .name {
   margin-right: 15px;
   font-size: 18px;
-  color: #333;
+  color: #505050;
 }
 
 .date {
-  margin-right: auto;
+  margin-right: 15px;
   font-size: 14px;
-  color: #999;
+  color: #9b9b9b;
 }
 
 .mini-rating{
@@ -92,13 +92,18 @@
 
 .text{
   font-size: 14px;
-  color: #666;
+  color: #505050;
   line-height: 20px;
+}
+
+.review-form{
+  background-color: #9b9b9b40;
 }
 
 .review-form-fields{
   display: flex;
   flex-direction: column;
+  margin: 0 10px;
   .name{
     width: 220px;
     display: flex;
@@ -107,6 +112,7 @@
       height: 40px;
       padding: 0 10px;
       outline-color: #505050;
+      color: #505050;
     }
   }
 }
@@ -118,13 +124,14 @@
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  color: #333;
+  color: #505050;
   textarea{
     resize: none; /* Запрещаем изменять размер */
     height: 100px;
     padding: 10px;
-    width: 640px;
+    width: 100%;
     outline-color: #505050;
+    color: #505050;
   }
 
 }
@@ -143,6 +150,7 @@
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   outline: 0;
   padding: 0 20px;
+  margin: 0 0 30px;
   &:hover {
     background: #5391c4;
   }
