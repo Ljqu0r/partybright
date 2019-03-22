@@ -55,7 +55,7 @@ function fromSASSToCSS() {
 gulp.task('img', () =>
     gulp.src('src/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./images'))
+        .pipe(gulp.dest('./build/images'))
 );
 gulp.task('fonts', () =>
     gulp.src('src/fonts/**/*')
