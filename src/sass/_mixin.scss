@@ -1,0 +1,23 @@
+@mixin bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin max($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+
+@mixin placeholder{
+  .form__item::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.1s ease-in-out;}
+  .form__item::-moz-placeholder                {opacity: 1; transition: opacity 0.1s ease-in-out;}
+  .form__item:-moz-placeholder                 {opacity: 1; transition: opacity 0.1s ease-in-out;}
+  .form__item:-ms-input-placeholder            {opacity: 1; transition: opacity 0.1s ease-in-out;}
+  .form__item:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.1s ease-in-out;}
+  .form__item:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.1s ease-in-out;}
+  .form__item:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.1s ease-in-out;}
+  .form__item:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.1s ease-in-out;}
+}

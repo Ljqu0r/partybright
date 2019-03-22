@@ -1,0 +1,62 @@
+/*rating-stars
+sprite with stars*/
+.review-stars .review-stars__input:checked ~ label, .review-stars label, .review-stars label:hover, .review-stars label:hover ~ label {
+  background: url(../../images/star.png) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.rating-stars{
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-title{
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.review-stars {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.review-stars .review-stars__input {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  width: 30px;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.review-stars .review-stars__input:checked ~ label {
+  background-position: 0 -28px;
+  height: 28px;
+  width: 30px;
+}
+
+.review-stars label {
+  background-position: 0 0;
+  height: 28px;
+  width: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.review-stars label:hover, .review-stars label:hover ~ label {
+  background-position: 0 -28px;
+  height: 28px;
+  width: 30px;
+}
+
+/*end of rating stars - menu*/

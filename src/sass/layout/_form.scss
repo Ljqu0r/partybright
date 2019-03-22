@@ -1,0 +1,153 @@
+.product-row {
+  width: 50%;
+}
+
+.reviews-block {
+  padding: 50px 10px;
+
+}
+
+.reviews-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 25px;
+
+}
+
+.text-title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #333;
+  min-width: 200px;
+}
+
+.add-review {
+  height: 40px;
+  background: #4686bb;
+  box-shadow: inset 0 -2px 0 0 #3c729f;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+  outline: 0;
+  padding: 0 20px;
+  cursor: pointer;
+  min-width: 160px;
+  &:hover {
+    background: #5391c4;
+  }
+  &:active {
+    background: #417aaa;
+    box-shadow: inset 0 2px 0 0 #376891;
+  }
+}
+
+.review-item {
+  margin: 0 0 30px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.image-block {
+  width: 110px;
+  height: 70px;
+  padding-right: 40px;
+  .user-icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-part {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.date {
+  margin-right: auto;
+  font-size: 14px;
+  color: #999;
+}
+
+.mini-rating{
+  margin-right: 15px;
+}
+
+.text{
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+}
+
+.review-form-fields{
+  display: flex;
+  flex-direction: column;
+  .name{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    input{
+      height: 40px;
+      padding: 0 10px;
+      outline-color: #505050;
+    }
+  }
+}
+
+.comment{
+  margin: 20px 40px 20px 0;
+  max-width: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #333;
+  textarea{
+    resize: none; /* Запрещаем изменять размер */
+    height: 100px;
+    padding: 10px;
+    width: 640px;
+    outline-color: #505050;
+  }
+
+}
+
+.form-btn{
+  min-width: 220px;
+  width: 180px;
+  height: 40px;
+  background: #4686bb;
+  box-shadow: inset 0 -2px 0 0 #3c729f;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  outline: 0;
+  padding: 0 20px;
+  &:hover {
+    background: #5391c4;
+  }
+  &:active {
+    background: #417aaa;
+    box-shadow: inset 0 2px 0 0 #376891;
+  }
+}
