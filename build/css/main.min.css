@@ -522,7 +522,8 @@ sprite with stars*/
     .reviews-top .text-title {
       margin: 0 auto;
       width: 100%;
-      text-align: center; } }
+      text-align: center;
+      font-size: 22px; } }
 
 @media (max-width: 640px) {
   .review-form-fields {
