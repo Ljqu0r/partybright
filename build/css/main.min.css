@@ -412,6 +412,7 @@ background-color: map-get($colors, theme-blue);
   flex-direction: column;
   margin: 0 10px; }
   .review-form-fields .name {
+    margin: 0;
     width: 220px;
     display: flex;
     flex-direction: column; }
@@ -423,7 +424,7 @@ background-color: map-get($colors, theme-blue);
 
 .comment {
   margin: 20px 40px 20px 0;
-  max-width: 640px;
+  max-width: 540px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -467,13 +468,9 @@ sprite with stars*/
   background-size: 100%; }
 
 .rating-stars {
-  margin: 40px 0 20px;
-  padding: 0 10px;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #505050;
-  flex-wrap: wrap; }
+  flex-direction: row;
+  align-items: center; }
 
 .rating-title {
   text-align: center;
@@ -486,7 +483,8 @@ sprite with stars*/
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  margin: 15px 0; }
+  margin: 15px 0 15px 75px;
+  top: 9px; }
 
 .review-stars .review-stars__input {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);

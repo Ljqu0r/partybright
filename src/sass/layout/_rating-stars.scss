@@ -7,14 +7,11 @@ sprite with stars*/
 }
 
 .rating-stars{
-  margin: 40px 0 20px;
-  padding: 0 10px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  background-color: #505050;
-  flex-wrap: wrap;
 }
+
 
 .rating-title{
   text-align: center;
@@ -28,7 +25,8 @@ sprite with stars*/
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  margin: 15px 0;
+  margin: 15px 0 15px 75px;
+  top: 9px;
 }
 
 .review-stars .review-stars__input {

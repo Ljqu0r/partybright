@@ -59,31 +59,31 @@
         <div class="add-review-form">
             <form class="review-form" action="form.php" method="post">
                 <div class="rating-stars">
-                    <h2 class="rating-title">
-                        Отзыв о товаре:
-                    </h2>
-                    <div class="review-stars">
-                        <input class="review-stars__input" id="star-5" type="radio" name="reviewStars"/>
-                        <label title="Отлично" for="star-5"></label>
 
-                        <input class="review-stars__input" id="star-4" type="radio" name="reviewStars"/>
-                        <label title="Хорошо" for="star-4"></label>
-
-                        <input class="review-stars__input" id="star-3" type="radio" name="reviewStars"/>
-                        <label title="Нормально" for="star-3"></label>
-
-                        <input class="review-stars__input" id="star-2" type="radio" name="reviewStars"/>
-                        <label title="Плохо" for="star-2"></label>
-
-                        <input class="review-stars__input" id="star-1" type="radio" name="reviewStars"/>
-                        <label title="Ужасно" for="star-1"></label>
-                    </div>
                 </div>
                 <div class="review-form-fields">
-                    <label class="name">
-                        <span>Ваше имя</span>
-                        <input type="text" name="client_name" required>
-                    </label>
+                    <div class="rating-stars">
+                        <label class="name">
+                            <span>Ваше имя</span>
+                            <input type="text" name="client_name" required>
+                        </label>
+                        <div class="review-stars">
+                            <input class="review-stars__input" id="star-5" type="radio" name="reviewStars"/>
+                            <label title="Отлично" for="star-5"></label>
+
+                            <input class="review-stars__input" id="star-4" type="radio" name="reviewStars"/>
+                            <label title="Хорошо" for="star-4"></label>
+
+                            <input class="review-stars__input" id="star-3" type="radio" name="reviewStars"/>
+                            <label title="Нормально" for="star-3"></label>
+
+                            <input class="review-stars__input" id="star-2" type="radio" name="reviewStars"/>
+                            <label title="Плохо" for="star-2"></label>
+
+                            <input class="review-stars__input" id="star-1" type="radio" name="reviewStars"/>
+                            <label title="Ужасно" for="star-1"></label>
+                        </div>
+                    </div>
                     <label class="comment">
                         <span>Ваш комментарий</span>
                         <textarea name="comment" required></textarea>
