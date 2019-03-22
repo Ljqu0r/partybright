@@ -533,6 +533,10 @@ sprite with stars*/
     margin: 0; } }
 
 @media (max-width: 640px) {
+  .info-block {
+    padding-right: 10px; } }
+
+@media (max-width: 640px) {
   .add-review {
     display: none; } }
 
@@ -558,7 +562,7 @@ sprite with stars*/
     flex-direction: column; }
     .rating-stars .name {
       width: 100%;
-      min-width: 100%; }
+      max-width: 98%; }
       .rating-stars .name span {
         text-align: center;
         margin-bottom: 5px; }
@@ -567,7 +571,8 @@ sprite with stars*/
 
 @media (max-width: 640px) {
   .comment {
-    margin: 20px 0; }
+    margin: 20px auto;
+    max-width: 98%; }
     .comment span {
       text-align: center;
       margin-bottom: 5px; } }
